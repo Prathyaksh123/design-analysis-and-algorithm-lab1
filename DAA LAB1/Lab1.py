@@ -31,9 +31,36 @@ print(f"Sum is {total}")  # Output: 15'''
 for i in range(len(a)-1,-1,-1):
     print(a[i])'''
 #-----------------------------------------------------------------------------------------------------------------------
-a=str(input("enter a word: "))
+'''a=str(input("enter a word: "))
 if a==a[::-1]:
     print("the given word is a palindrome")
 else:
-    print("the given word is not a palindrome")
+    print("the given word is not a palindrome")'''
 #-----------------------------------------------------------------------------------------------------------------------
+'''write a program to find the factorial of a no. using recursion'''
+'''n=int(input("Enter a number: "))
+def fact(n):
+    if n==0:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(n))'''
+#-----------------------------------------------------------------------------------------------------------------------
+''' write a program to check if a given no. is a prime number'''
+'''a=int(input("Enter a number: "))
+if a==1:
+    print("The given number is a prime number")
+else:
+    print("The given number is not a prime number")'''
+#-----------------------------------------------------------------------------------------------------------------------
+'''write a program for sequential search'''
+a=int(input("Enter a number: "))
+b=[1,2,3,4,5,6,7,8]
+for i in range(0,len(b)):
+    if a==b[i]:
+        print("the number was found")
+        break
+else:
+    print("the number was not found")
+
+
